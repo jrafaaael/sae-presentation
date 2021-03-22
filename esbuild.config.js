@@ -1,6 +1,7 @@
 require('esbuild').build({
     entryPoints: [
         './/src/app.js',
+        './/src/import_files.js',
         './/src/CSS/style.css'
     ],
     outdir: 'dist',
@@ -16,6 +17,7 @@ require('esbuild').build({
     assetNames: 'assets/[name]-[hash]',
     loader: {
         '.jpg': 'file',
-        '.webp': 'file'
+        '.webp': 'file',
+        '.png': 'file'
     }
 }).catch(() => process.exit(1))
