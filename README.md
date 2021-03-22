@@ -3,4 +3,4 @@ Informative presentation of the "Sistema Automatizado para las Áreas de Control
 
 ## See the presentation here https://jrafaaael.github.io/sae-presentation/
 
-## THIS PRESENTATION IS OPTIMIZED FOR BIG SCREENS
+## THIS PRESENTATION IS OPTIMIZED FOR LANDSCAPE ORIENTATION SCREENS
