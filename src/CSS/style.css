@@ -197,20 +197,36 @@ p::first-letter {
 }
 
 /* Slide 4 */
-#slide-4 .wrapper {
+#slide-4 section {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+#slide-4 img {
+    width: 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Slide 5 */
+#slide-5 .wrapper {
     flex-direction: column;
 }
 
-#slide-4 .subtitle {
+#slide-5 .subtitle {
     margin-bottom: 2rem;
 }
 
-#slide-4 h4 {
+#slide-5 h4 {
     margin-bottom: 0.25rem;
     text-transform: uppercase;
     font-size: 2rem;
 }
 
-#slide-4 p {
+#slide-5 p {
     margin-bottom: 2rem;
 }
