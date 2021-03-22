@@ -1,0 +1,24 @@
+{
+  "name": "sae-presentation",
+  "version": "1.0.0",
+  "description": "SAE informative presentation",
+  "main": "app.js",
+  "scripts": {
+    "build": "node esbuild.config.js"
+  },
+  "keywords": [
+    "SAE",
+    "informative",
+    "presentation",
+    "reveal.js",
+    "school"
+  ],
+  "author": "jrafaaael",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.9.5"
+  },
+  "dependencies": {
+    "reveal.js": "^4.1.0"
+  }
+}
